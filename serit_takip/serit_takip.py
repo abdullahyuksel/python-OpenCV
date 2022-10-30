@@ -122,7 +122,7 @@ while cam.isOpened():
         
 
     cv2.imshow("image",image)
-    cv2.imshow("img",img)
+    # cv2.imshow("img",img)
     
     key = cv2.waitKey(16) & 0xFF
     if key == ord("q"):
