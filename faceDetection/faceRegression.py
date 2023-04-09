@@ -12,7 +12,7 @@ image_A_encoding = face_recognition.face_encodings(image_A)[0]
 image_B = face_recognition.load_image_file("asaf.jpeg")
 image_B_encoding = face_recognition.face_encodings(image_B)[0]
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 
 
